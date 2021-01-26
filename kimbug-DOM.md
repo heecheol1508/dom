@@ -68,14 +68,6 @@ HTML 문서 전반에 대한 정보 (DOCTYPE, body, head, title 등)
 
 
 
-resize 이벤트
-
-약관 form
-
-![image-20210126140332899](../../AppData/Roaming/Typora/typora-user-images/image-20210126140332899.png)
-
-
-
 target, current target 구분
 
 위 사진에서 body의 click eventhandler의 경우 current target은 body고 target은 div
@@ -85,8 +77,6 @@ target, current target 구분
 그리고 위 사진에서 div, body, html 모두 event handler가 있을 경우 어떤 이벤트부터 실행시켜야 하는지가 중요하기 때문에 **event flow**가 있고 중요.
 
 
-
-![image-20210126141159411](../../AppData/Roaming/Typora/typora-user-images/image-20210126141159411.png)
 
 event flow
 
@@ -102,7 +92,11 @@ event flow
 
 default는 Bubble (div -> body -> html 순으로 이벤트 실행)
 
-![image-20210126141842560](../../AppData/Roaming/Typora/typora-user-images/image-20210126141842560.png)
+
+
+![](https://d259t2jj6zp7qm.cloudfront.net/images/c_scale%2Cw_300-capture-bubble_nbgmry.png)
+
+
 
  e.stopPropagation()
 
